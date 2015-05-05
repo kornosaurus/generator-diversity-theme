@@ -5,7 +5,7 @@ A yeoman generator for creating a new theme for [Diversity]('https://diversity.i
 Usage
 -----------------------
 First install yeoman and the generator:
- * `npm install -g yo generator-theme`
+ * `npm install -g yo generator-diversity-theme`
 
 
 Then just run:

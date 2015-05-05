@@ -1,0 +1,15 @@
+{
+  "name": "<%= themename %>",
+  "version": "0.0.1",
+  "description": "<%= themenameTitle %> Diversity Theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "karma start test/karma.conf.js"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "diversity-build": "git+https://git.diversity.io/tooling/diversity-build.git#master",
+    "gulp": "^3.8.11"
+  }
+}

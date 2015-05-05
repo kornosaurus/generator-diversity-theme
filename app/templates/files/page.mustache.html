@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]> <html class="ie6" lang="{{#lang}}lang{{/lang}}"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="{{#lang}}lang{{/lang}}"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="{{#lang}}lang{{/lang}}"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="{{#lang}}lang{{/lang}}"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="{{#lang}}lang{{/lang}}"><!--<![endif]-->
+  <head tws-theme-foundation-title-meta-desc-keywords>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <meta name="format-detection" content="telephone=no">
+
+    <base href="/">
+
+    <script>
+      window.prerenderReady = false;
+    </script>
+
+    <style>
+      [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+      }
+    </style>
+
+    {{#styles}}
+    <link rel="stylesheet" href="{{{.}}}" media="screen" charset="utf-8">
+    {{/styles}}
+
+  <link rel="stylesheet"
+        href='{{{context.serveWithStyleUrl}}}components/aficionado/*/css{{#settings.theme}}?foo=bar{{#documentColor}}&document-color={{.}}{{/documentColor}}{{#basicColor}}&basic-color={{.}}{{/basicColor}}{{#accentColor}}&accent-color={{.}}{{/accentColor}}{{#regularFont}}&regular-font-url="{{url}}"&regular-font="{{name}}"{{/regularFont}}{{#accentFont}}&accent-font-url="{{url}}"&accent-font="{{name}}"{{/accentFont}}{{/settings.theme}}' media="screen" charset="utf-8">
+
+
+
+    {{#settings.custom_css.links}}
+    <link rel="stylesheet" href="{{{.}}}" media="screen" charset="utf-8">
+    {{/settings.custom_css.links}}
+
+    {{#settings.custom_css.rules}}
+    <style>
+      {{{.}}}
+    </style>
+    {{/settings.custom_css.rules}}
+
+    <script>
+    // Disable console in production
+    if (location.href.toLocaleLowerCase().indexOf('debug=true') === -1 &&
+        location.href.indexOf('://localhost') === -1) {
+      // Windows only defines console if developer tools is open.
+      if (window.console) {
+        console.log = function() { };
+      } else {
+        window.console = {log: function(){}};
+      }
+    }
+    </script>
+
+    <script>
+      if (navigator && navigator.userAgent && navigator.userAgent.indexOf('PhantomJS') === -1) {
+        var $buoop = {vs:{i:8,f:15,o:12.1,s:5.1},c:2};
+        function $buo_f(){
+         var e = document.createElement("script");
+         e.src = "//browser-update.org/update.js";
+         document.body.appendChild(e);
+        };
+        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+        catch(e){window.attachEvent("onload", $buo_f)}
+      }
+    </script>
+
+    <script type="text/javascript">
+      window.tws = { data: { } };
+
+      {{#l10n}}
+        window.tws.data['{{{component}}}'] = { messages: {{{messages}}} };
+      {{/l10n}}
+    </script>
+
+    {{#settings.head}}
+     {{{ componentHTML }}}
+    {{/settings.head}}
+
+  </head>
+  <body ng-cloak>
+    <div tws-theme-foundation-preview></div>
+    <div class="tws-theme">
+      <div class="tws-theme-wrapper">
+        <header class="tws-theme-header">
+            <div class="top-bar">
+              <div class="container">
+                <div class="row">
+                  <div class="text-right">
+                    <div class="col-md-7">
+                      <div class="pull-left text-left inline-slot hidden-xs hidden-sm" slot="top-customer-service"></div>
+                      <div class="pull-left text-left inline-slot hidden-xs hidden-sm" slot="top-shipping-info"></div>
+                    </div>
+                    <div class="inline-slot" slot="top-slot-1"></div>
+                    <div class="inline-slot" slot="top-slot-2"></div>
+                    <div class="inline-slot" slot="top-slot-3"></div>
+                    <div class="inline-slot" slot="top-slot-4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cocktail-bar">
+              <div class="container">
+                <div class="row header-bar">
+                  <div class="col-sm-12 col-xs-12 col-md-8 col-md-offset-2"
+                       slot="logo">
+                  </div>
+                  <div class="col-md-2 col-sm-12 col-xs-10"
+                       slot="search">
+                </div>
+              </div>
+              <div slot="menu"></div>
+            </div>
+          </div>
+
+
+
+        </header>
+
+        <div ui-view="content" class="tws-theme-content"></div>
+
+        <div class="tws-theme-footer-pusher"></div>
+      </div>
+
+      <footer class="tws-theme-footer">
+        <div>
+          <div class="container" slot="footer"></div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular-sanitize.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular-touch.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular-animate.min.js"></script>
+
+    {{#scripts}}
+    <script src="{{{.}}}"></script>
+    {{/scripts}}
+
+
+    {{#minifiedJs}}
+    <script type="text/javascript">
+      {{{.}}}
+    </script>
+    {{/minifiedJs}}
+
+    {{#settings.custom_javascript.srcs}}
+    <script src="{{{.}}}"></script>
+    {{/settings.custom_javascript.srcs}}
+
+
+
+
+    <script>
+      // To avoid having to load the templates in a special order.
+      angular.module('twsThemeFoundation').constant('themeSettings', {{{settingsJSON}}});
+
+      // Transfer settings from mustache template to AngularJS.
+      angular.module('aficionado', ['ngTouch','ngAnimate'])
+             .constant('themeSettings', {{{settingsJSON}}})
+             .constant('webshop', {{context.webshopUid}})
+             .constant('webshopUrl', '{{{context.webshopUrl}}}')
+             .constant('language', '{{#lang}}lang{{/lang}}')
+             .constant('apiUrl', '{{{context.apiUrl}}}')
+             .constant('apiAuth', '{{{context.auth}}}')
+             .constant('themeBaseUrl','{{{baseUrl}}}').run(function() {
+
+             });
+
+      {{{angularBootstrap}}}
+    </script>
+
+  </body>
+</html>

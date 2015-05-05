@@ -1,0 +1,739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:23
+msgid "Branding"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:30
+msgid "Colours & fonts"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:36
+msgid "Background and standard buttons"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:38
+msgid "This is the dominant colour of your shop."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:57
+msgid "Header & footer"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:59
+msgid "Background in the header and footer."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:78
+msgid "Accent"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:80
+msgid "Highlights important elements, such as the buy button."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:99
+msgid "Main font"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:101
+msgid ""
+"The main font used throughout your shop. You can either choose one of the "
+"built-in fonts or load one from Google Fonts."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:107
+#: /Users/dervisevic/diversity/aficionado/diversity.json:145
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:112
+#: /Users/dervisevic/diversity/aficionado/diversity.json:150
+msgid "Built-in"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:116
+#: /Users/dervisevic/diversity/aficionado/diversity.json:154
+msgid "Google"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:121
+#: /Users/dervisevic/diversity/aficionado/diversity.json:159
+msgid "Load"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:123
+#: /Users/dervisevic/diversity/aficionado/diversity.json:161
+msgid ""
+"Select a font from the drown-down menu below and, if you want, change the "
+"example text and size (only for previewing)."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:125
+#: /Users/dervisevic/diversity/aficionado/diversity.json:163
+msgid "An error occured while loading {{fontName}}"
+msgstr ""
+
+msgid ""
+"To load a font from Google Fonts, do the following:<br><ol><li>Go to <a "
+"href='http://www.google.com/fonts'>http://www.google.com/fonts</a>.</li><li>"
+"Choose a font and click on the icon for Quick-use (the icon looks like an "
+"arrow to the right).</li><li>Choose styles and character sets in step 1 and "
+"2. Copy the code from step 3.</li><li>Paste the code below and click "
+"\"Load\".</li></ol>"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:137
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2774
+msgid "Accent font"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:139
+msgid ""
+"Highlights important elements such as headlines. You can either choose one of "
+"the built-in fonts or load one from Google Fonts."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:175
+msgid "Logo"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:177
+msgid "You can have an image, text or image with text over it as your logo."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:193
+#: /Users/dervisevic/diversity/aficionado/diversity.json:781
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1031
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1204
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1377
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1549
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1722
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1894
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2072
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2245
+msgid "Image"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:204
+#: /Users/dervisevic/diversity/aficionado/diversity.json:830
+#: /Users/dervisevic/diversity/aficionado/diversity.json:975
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1148
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1321
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1493
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1666
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1838
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2016
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2189
+msgid "Text"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:221
+msgid "Google Analytics"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:233
+msgid "Web Property ID"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:239
+msgid "Enter your Web Property ID to enable Google Analytics."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:241
+msgid "This is not a valid Web Property ID."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:243
+msgid "UA-XXXX-YY"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:254
+#: /Users/dervisevic/diversity/aficionado/diversity.json:259
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2712
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2717
+msgid "Custom CSS"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:261
+msgid "The CSS entered here is applied site wide and at your own risk."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:278
+msgid "Header & Footer"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:285
+msgid "Header"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:287
+msgid ""
+"Here you can add contact and shipping information, etc. that are shown at "
+"the absolute top of the page."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:304
+msgid "Customer login"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:306
+msgid "Enable your customers to create an account and log in to your shop?"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:320
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1016
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1189
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1362
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1534
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1707
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1879
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2057
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2230
+msgid "Yes"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:325
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1021
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1194
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1367
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1539
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1712
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1884
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2062
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2235
+msgid "No"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:366
+msgid "Contact"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:368
+msgid ""
+"Phone number to your customer service or other contact information. A "
+"single row at the top of the page."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:404
+msgid "Shipping information"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:406
+msgid "A single row at the top of the page."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:436
+msgid "Footer"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:438
+msgid "The footer is always located at the bottom of the page."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:454
+msgid "Address"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:456
+msgid "You can add up to five address lines."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:462
+msgid "Address line 1"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:468
+msgid "Address line 2"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:474
+msgid "Address line 3"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:480
+msgid "Address line 4"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:486
+msgid "Address line 5"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:494
+msgid "Email"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:506
+msgid "Phone number (human readable)"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:508
+msgid "The number as shown to your visitors, e.g. 012 345 6789"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:521
+msgid "Phone number (computer readable)"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:523
+msgid ""
+"The number must start with a country code (e.g. +44) and may not contain "
+"spaces."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:525
+msgid ""
+"The number that should be dialed when a visitor clicks on it, e.g. "
+"+44123456789."
+msgstr ""
+
+msgid "Link to \"Terms & conditions\""
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:553
+#: /Users/dervisevic/diversity/aficionado/diversity.json:721
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2385
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2681
+msgid "On"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:558
+#: /Users/dervisevic/diversity/aficionado/diversity.json:726
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2390
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2686
+msgid "Off"
+msgstr ""
+
+msgid "Link text for \"Terms & conditions\""
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:574
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2915
+#: /Users/dervisevic/diversity/aficionado/diversity.json:3152
+msgid "Terms & conditions"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:591
+#: /Users/dervisevic/diversity/aficionado/diversity.json:597
+msgid "Menu"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:599
+msgid ""
+"The menu is a central component of your shop that your visitors will use to "
+"look though your inventory. With the settings below you can customize both "
+"the look and content of the menu. Please note that certain settings may be "
+"inappropriate if you have many article groups on the top level."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:615
+msgid "Menu style"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:617
+msgid "The menu is available in two different styles."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:632
+msgid "Drop down"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:637
+msgid "Mega"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:667
+msgid "Menu items"
+msgstr ""
+
+msgid ""
+"Click \"Add\" below to add new items to the menu, then use drag and drop to "
+"re-arrange."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:680
+msgid "Start page"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:687
+msgid "Image carousel"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:703
+msgid "Auto play"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:705
+msgid "Images change automatically."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:735
+msgid "Transition mode"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:737
+msgid "Animation when changing images."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:753
+msgid "Slide"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:758
+msgid "Fade"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:767
+msgid "Images"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:772
+msgid "Add image"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:810
+msgid "Shout out"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:812
+msgid "Shout out the latest in a text-only promotion box."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:835
+#: /Users/dervisevic/diversity/aficionado/diversity.json:980
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1153
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1326
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1498
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1671
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1843
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2021
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2194
+msgid "First line"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:841
+#: /Users/dervisevic/diversity/aficionado/diversity.json:986
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1159
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1332
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1504
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1677
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1849
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2027
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2200
+msgid "Second line"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:847
+#: /Users/dervisevic/diversity/aficionado/diversity.json:992
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1165
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1338
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1510
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1683
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1855
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2033
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2206
+msgid "Third line"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:792
+#: /Users/dervisevic/diversity/aficionado/diversity.json:856
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1043
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1216
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1389
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1561
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1734
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1906
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2084
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2257
+msgid "Link"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:873
+msgid "Promotion boxes"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:875
+msgid ""
+"With promotion boxes you can raise customer awareness of, for example, a "
+"particular brand, a sales campaign or perhaps a new section of your shop."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:899
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1071
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1244
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1417
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1589
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1762
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1939
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2112
+msgid "Horizontal text alignment"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:914
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1087
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1260
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1433
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1605
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1777
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1955
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2128
+msgid "Left"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:919
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1092
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1265
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1438
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1610
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1782
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1960
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2133
+msgid "Center"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:924
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1097
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1270
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1443
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1615
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1787
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1965
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2138
+msgid "Right"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:934
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1107
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1280
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1453
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1625
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1797
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1975
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2148
+msgid "Vertical text alignment"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:939
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1112
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1285
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1458
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1630
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1802
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1980
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2153
+msgid "Vertical alignment"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:950
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1123
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1296
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1468
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1641
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1813
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1991
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2164
+msgid "Top"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:955
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1128
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1301
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1473
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1646
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1818
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1996
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2169
+msgid "Middle"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:960
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1133
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1306
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1478
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1651
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1823
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2001
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2174
+msgid "Bottom"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1001
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1174
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1347
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1519
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1692
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1864
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2042
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2215
+msgid "Invert text colour"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:904
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1076
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1249
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1422
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1594
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1767
+#: /Users/dervisevic/diversity/aficionado/diversity.json:1944
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2117
+msgid "Horizontal alignment"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2282
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2317
+msgid "Highlighted articles"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2284
+msgid "Here you can promote certain articles on the start page."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2300
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2304
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2308
+msgid "Title"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2323
+msgid "Add article"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2344
+msgid "Pages"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2351
+msgid "Article page"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2353
+msgid "Here you can adjust how individual articles are presented."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2369
+msgid "Share button"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2399
+msgid "Options or variants"
+msgstr ""
+
+msgid ""
+"You can display article choices either as individual options (e.g. "
+"\"Colour\" and \"Size\") or as variants. The latter are combinations of "
+"options, e.g. \"Red shirt XL\"."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2417
+msgid "Options"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2422
+msgid "Variants"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2435
+msgid "Maximum variants"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2437
+msgid ""
+"Set a maximum number of unique variants. If you exceed this limit, then "
+"they will all show up as options instead."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2457
+msgid "Article-group page"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2459
+msgid "An article-group page can list sub groups, articles or both."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2471
+msgid "Sub groups"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2480
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2564
+msgid "Grid or list"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2482
+msgid "Show sub groups in a grid or a list."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2498
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2582
+msgid "Grid"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2503
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2587
+msgid "List"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2512
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2530
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2596
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2614
+msgid "Pagination"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2514
+msgid ""
+"You can choose between classic pagination or infinite scroll, where sub "
+"groups are loaded automatically."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2535
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2619
+msgid "Infinite scroll"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2566
+msgid "Show articles in a grid or a list."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2598
+msgid ""
+"You can choose between classic pagination or infinite scroll, where "
+"articles are loaded automatically."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2634
+#: /Users/dervisevic/diversity/aficionado/diversity.json:3364
+msgid "Checkout"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2641
+msgid ""
+"Here you can normally make theme-specific settings related to your checkout "
+"section. Your shop, however, currently lacks the required features."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2647
+msgid "Here you can make theme-specific settings related to your checkout section."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2663
+msgid "Discount codes"
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2665
+msgid ""
+"Here you can enable discount codes for the current theme. To create and "
+"manage your discount codes, <a href='list_discounts.php'>click here</a>."
+msgstr ""
+
+#: /Users/dervisevic/diversity/aficionado/diversity.json:2722
+msgid "Style links"
+msgstr ""

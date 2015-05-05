@@ -1,0 +1,769 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:23
+msgid "Branding"
+msgstr "Varumärke"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:30
+msgid "Colours & fonts"
+msgstr "Färger & typsnitt"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:34
+msgid "Background and standard buttons"
+msgstr "Bakgrund och standardknappar"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:35
+msgid "This is the dominant colour of your shop."
+msgstr "Detta är den dominerande färgen i din butik."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:53
+msgid "Header & footer"
+msgstr "Sidhuvud & sidfot"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:54
+msgid "Background in the header and footer."
+msgstr "Bakgrundsfärg i sidhuvudet och sidfoten."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:72
+msgid "Accent"
+msgstr "Accent"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:73
+msgid "Highlights important elements, such as the buy button."
+msgstr "Betonar viktiga element såsom köpknappen."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:99
+msgid "Main font"
+msgstr "Huvudtypsnitt"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:101
+msgid ""
+"The main font used throughout your shop. You can either choose one of the "
+"built-in fonts or load one from Google Fonts."
+msgstr "Det dominerande typsnittet i din butik. Du kan antingen välja ett av de inbyggda typsnitten eller ladda in ett från Google Fonts."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:106
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:132
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "Flygande bäckasiner söka hwila på mjuka tuvor"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:107
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:133
+msgid "Built-in"
+msgstr "Inbyggt"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:107
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:133
+msgid "Google"
+msgstr "Google"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:109
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:135
+msgid "Load"
+msgstr "Ladda in"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:111
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:137
+msgid ""
+"Select a font from the drown-down menu below and, if you want, change the "
+"example text and size (only for previewing)."
+msgstr "Välj ett typsnitt från rullgardinsmenyn nedan. Om du vill kan du också ändra exempeltext och storlek (endast för förhandsgranskning)."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:113
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:139
+msgid "An error occured while loading {{fontName}}"
+msgstr "Det gick inte att ladda in {{fontName}}"
+
+msgid ""
+"To load a font from Google Fonts, do the following:<br><ol><li>Go to <a "
+"href='http://www.google.com/fonts'>http://www.google.com/fonts</a>.</li><li>"
+"Choose a font and click on the icon for Quick-use (the icon looks like an "
+"arrow to the right).</li><li>Choose styles and character sets in step 1 and "
+"2. Copy the code from step 3.</li><li>Paste the code below and click "
+"\"Load\".</li></ol>"
+msgstr "För att ladda in typsnitt från Google Fonts gör följande:<br><ol><li>Gå till <a href='http://www.google.com/fonts'>http://www.google.com/fonts</a>.</li><li>Välj ett typsnitt och klicka på ikonen för Quick-use till höger (ikonen ser ut som en högerpil).</li><li>Välj stil på typsnittet i steg 1 & 2 och kopiera koden från steg 3.</li><li>Klista in koden nedan och välj \"Ladda in\".</li></ol>"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:103
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2269
+msgid "Accent font"
+msgstr "Accenttypsnitt"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:127
+msgid ""
+"Highlights important elements such as headlines. You can either choose one of "
+"the built-in fonts or load one from Google Fonts."
+msgstr "Betonar viktiga element såsom rubriker. Du kan antingen välja ett av de inbyggda typsnitten eller ladda in ett från Google Fonts."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:115
+msgid "Logo"
+msgstr "Logotyp"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:153
+msgid "You can use an image, a text or an image with text overlay as your logo."
+msgstr "Du kan använda en bild, en text eller en bild med text som logotyp."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:131
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:600
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:814
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:958
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1102
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1246
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1390
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1534
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1683
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1827
+msgid "Image"
+msgstr "Bild"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:141
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:644
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:771
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:915
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1059
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1203
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1347
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1491
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1640
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1784
+msgid "Text"
+msgstr "Text"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:157
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:168
+msgid "Web Property ID"
+msgstr "Web property-ID"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:172
+msgid "Enter your Web Property ID to enable Google Analytics."
+msgstr "Fyll i ditt web property-ID för att aktivera Google Analytics."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:173
+msgid "This is not a valid Web Property ID."
+msgstr "Detta är inte ett giltigt web property-ID."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:174
+msgid "UA-XXXX-YY"
+msgstr "UA-XXXX-YY"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:183
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:187
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2209
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2213
+msgid "Custom CSS"
+msgstr "Egen CSS"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:188
+msgid "The CSS entered here is applied site wide and at your own risk."
+msgstr ""
+"CSS som du lägger in här tillämpas på hela butikstemat och används på egen "
+"risk."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:204
+msgid "Header & Footer"
+msgstr "Sidhuvud & sidfot"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:210
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:211
+msgid ""
+"Here you can add contact and shipping information, etc. that are shown at "
+"the absolute top of the page."
+msgstr ""
+"Här kan du lägga till bl.a. kontakt- och fraktinformation som visas längst "
+"upp på sidan."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:227
+msgid "Customer login"
+msgstr "Kundinloggning"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:228
+msgid "Enable your customers to create an account and log in to your shop?"
+msgstr "Vill du låta dina kunder skapa ett konto och logga in till din butik?"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:238
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:805
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:949
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1093
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1237
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1381
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1525
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1674
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1818
+msgid "Yes"
+msgstr "Ja"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:239
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:806
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:950
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1094
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1238
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1382
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1526
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1675
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1819
+msgid "No"
+msgstr "Nej"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:277
+msgid "Contact"
+msgstr "Kontakt"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:278
+msgid ""
+"Phone number to your customer service or other contact information. A "
+"single row at the top of the page."
+msgstr ""
+"Telefonnummer till kundtjänst eller annan kontaktinformation. En enkelrad "
+"längst upp på sidan."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:307
+msgid "Shipping information"
+msgstr "Fraktinformation"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:308
+msgid "A single row at the top of the page."
+msgstr "En enkelrad längst upp på sidan."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:331
+msgid "Footer"
+msgstr "Sidfot"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:332
+msgid "The footer is always located at the bottom of the page."
+msgstr "Sidfoten visas alltid längst ner på sidan."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:345
+msgid "Address"
+msgstr "Adress"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:346
+msgid "You can add up to five address lines."
+msgstr "Du kan använda maximalt fem adressrader."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:351
+msgid "Address line 1"
+msgstr "Adressrad 1"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:356
+msgid "Address line 2"
+msgstr "Adressrad 2"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:361
+msgid "Address line 3"
+msgstr "Adressrad 3"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:366
+msgid "Address line 4"
+msgstr "Adressrad 4"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:371
+msgid "Address line 5"
+msgstr "Adressrad 5"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:378
+msgid "Email"
+msgstr "E-post"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:387
+msgid "Phone number (human readable)"
+msgstr "Telefonnummer (läsbart av människor)"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:388
+msgid "The number as shown to your visitors, e.g. 012 345 6789"
+msgstr "Numret så som det visas för dina besökare, t.ex. 012-34 56 78."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:398
+msgid "Phone number (computer readable)"
+msgstr "Telefonnummer (datorläsbart)"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:399
+msgid ""
+"The number must start with a country code (e.g. +44) and may not contain "
+"spaces."
+msgstr ""
+"Numret måste börja med en landskod (t.ex. +46) och får inte innehålla "
+"mellanslag."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:400
+msgid ""
+"The number that should be dialed when a visitor clicks on it, e.g. "
+"+44123456789."
+msgstr "Numret som ska ringas upp när en besökare klickar på det, t.ex. +4612345678."
+
+msgid "Link to \"Terms & conditions\""
+msgstr "Länk till \"Villkor & info\""
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:422
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:558
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1948
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2165
+msgid "On"
+msgstr "På"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:423
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:559
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1949
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2166
+msgid "Off"
+msgstr "Av"
+
+msgid "Link text for \"Terms & conditions\""
+msgstr "Länktext för \"Villkor & info\""
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:435
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2402
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2639
+msgid "Terms & conditions"
+msgstr "Villkor & info"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:449
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:454
+msgid "Menu"
+msgstr "Meny"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:455
+msgid ""
+"The menu is a central component of your shop that your visitors will use to "
+"look though your inventory. With the settings below you can customize both "
+"the look and content of the menu. Please note that certain settings may be "
+"inappropriate if you have many article groups on the top level."
+msgstr ""
+"Menyn är en central komponent som dina besökare använder för att titta "
+"igenom ditt sortiment. Här kan du ställa in både hur menyn ska se ut och "
+"vad den ska innehålla. Observera att vissa inställningar kan vara mindre "
+"lämpliga om du har många artikelgrupper på toppnivå."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:470
+msgid "Menu style"
+msgstr "Menyvariant"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:471
+msgid "The menu is available in two different styles."
+msgstr "Menyn finns tillgänglig i två olika varianter."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:483
+msgid "Drop down"
+msgstr "Rullgardin"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:484
+msgid "Mega"
+msgstr "Mega"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:512
+msgid "Menu items"
+msgstr "Menyobjekt"
+
+msgid ""
+"Click \"Add\" below to add new items to the menu, then use drag and drop to "
+"re-arrange."
+msgstr ""
+"Klicka på ”Lägg till” nedan för att lägga till nya objekt i menyn. Du kan "
+"sedan dra och släppa för att byta plats på dem."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:523
+msgid "Start page"
+msgstr "Startsida"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:529
+msgid "Image carousel"
+msgstr "Bildspel"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:544
+msgid "Auto play"
+msgstr "Automatisk bildväxling"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:545
+msgid "Images change automatically."
+msgstr "Nya bilder visas automatiskt efter ett visst intervall."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:566
+msgid "Transition mode"
+msgstr "Bildväxlingssätt"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:567
+msgid "Animation when changing images."
+msgstr "Animation vid bildväxling."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:580
+msgid "Slide"
+msgstr "Glidning"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:581
+msgid "Fade"
+msgstr "Toning"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:588
+msgid "Images"
+msgstr "Bilder"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:592
+msgid "Add image"
+msgstr "Lägg till bild"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:626
+msgid "Shout out"
+msgstr "Textannonser"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:627
+msgid "Shout out the latest in a text-only promotion box."
+msgstr "Här kan du publicera nyheter som enkla textannonser."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:648
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:775
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:919
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1063
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1207
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1351
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1495
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1644
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1788
+msgid "First line"
+msgstr "Rad 1"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:653
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:780
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:924
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1068
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1212
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1356
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1500
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1649
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1793
+msgid "Second line"
+msgstr "Rad 2"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:658
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:785
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:929
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1073
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1217
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1361
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1505
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1654
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1798
+msgid "Third line"
+msgstr "Rad 3"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:610
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:666
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:823
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:967
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1111
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1255
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1399
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1543
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1692
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1836
+msgid "Link"
+msgstr "Länk"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:680
+msgid "Promotion boxes"
+msgstr "Skyltfönster"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:681
+msgid ""
+"With promotion boxes you can raise customer awareness of, for example, a "
+"particular brand, a sales campaign or perhaps a new section of your shop."
+msgstr ""
+"Skyltfönster kan du använda till att göra reklam för ett visst varumärke, "
+"en säljkampanj eller kanske en särskild avdelning i din butik."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:704
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:848
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:992
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1136
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1280
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1424
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1573
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1717
+msgid "Horizontal text alignment"
+msgstr "Horisontell textjustering"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:718
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:862
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1006
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1150
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1294
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1438
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1587
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1731
+msgid "Left"
+msgstr "Vänster"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:722
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:866
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1010
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1154
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1298
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1442
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1591
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1735
+msgid "Center"
+msgstr "Center"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:726
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:870
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1014
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1158
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1302
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1446
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1595
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1739
+msgid "Right"
+msgstr "Höger"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:735
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:879
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1023
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1167
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1311
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1455
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1604
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1748
+msgid "Vertical text alignment"
+msgstr "Vertikal textjustering"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:739
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:883
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1027
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1171
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1315
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1459
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1608
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1752
+msgid "Vertical alignment"
+msgstr "Vertikal justering"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:749
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:893
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1037
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1181
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1325
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1469
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1618
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1762
+msgid "Top"
+msgstr "Toppen"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:753
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:897
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1041
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1185
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1329
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1473
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1622
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1766
+msgid "Middle"
+msgstr "Mitten"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:757
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:901
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1045
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1189
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1333
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1477
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1626
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1770
+msgid "Bottom"
+msgstr "Botten"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:793
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:937
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1081
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1225
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1369
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1513
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1662
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1806
+msgid "Invert text colour"
+msgstr "Inverterad textfärg"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:708
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:852
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:996
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1140
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1284
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1428
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1577
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1721
+msgid "Horizontal alignment"
+msgstr "Horisontell justering"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1859
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1889
+msgid "Highlighted articles"
+msgstr "Framhävda artiklar"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1860
+msgid "Here you can promote certain articles on the start page."
+msgstr "Här kan du välja att lyfta fram vissa artiklar på startsidan."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1875
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1878
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1881
+msgid "Title"
+msgstr "Titel"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1894
+msgid "Add article"
+msgstr "Lägg till artikel"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1915
+msgid "Pages"
+msgstr "Sidor"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1920
+msgid "Article page"
+msgstr "Artikelsida"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1921
+msgid "Here you can adjust how individual articles are presented."
+msgstr "Här kan du ställa in hur enskilda artiklar ska presenteras."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1935
+msgid "Share button"
+msgstr "Dela-knapp"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1956
+msgid "Options or variants"
+msgstr "Valmöjligheter eller varianter"
+
+msgid ""
+"You can display article choices either as individual options (e.g. "
+"\"Colour\" and \"Size\") or as variants. The latter are combinations of "
+"options, e.g. \"Red shirt XL\"."
+msgstr ""
+"Du kan visa artikelval som antingen enskilda valmöjligheter (t.ex. \"Färg\" "
+"och \"Storlek\") eller som varianter. De senare är kombinationer av "
+"valmöjligheter, t.ex. \"Röd tröja XL\"."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1970
+msgid "Options"
+msgstr "Valmöjligheter"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1971
+msgid "Variants"
+msgstr "Varianter"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1982
+msgid "Maximum variants"
+msgstr "Max antal varianter"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:1983
+msgid ""
+"Set a maximum number of unique variants. If you exceed this limit, then "
+"they will all show up as options instead."
+msgstr ""
+"Här ställer du in taket för antalet unika varianter. Om antalet varianter "
+"skulle överstiga detta antal kommer de istället att visas som "
+"valmöjligheter."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2001
+msgid "Article-group page"
+msgstr "Artikelgruppssida"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2002
+msgid "An article-group page can list sub groups, articles or both."
+msgstr "En artikelgruppssida kan lista undergrupper, artiklar eller både och."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2013
+msgid "Sub groups"
+msgstr "Undergrupper"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2021
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2085
+msgid "Grid or list"
+msgstr "Rutnät eller lista"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2022
+msgid "Show sub groups in a grid or a list."
+msgstr "Visa undergrupper i ett rutnät eller en lista."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2035
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2099
+msgid "Grid"
+msgstr "Rutnät"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2036
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2100
+msgid "List"
+msgstr "Lista"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2043
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2057
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2107
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2121
+msgid "Pagination"
+msgstr "Paginering"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2044
+msgid ""
+"You can choose between classic pagination or infinite scroll, where sub "
+"groups are loaded automatically."
+msgstr ""
+"Du kan välja mellan klassisk paginering eller oändlig rullningslist där "
+"undergrupper laddas automatiskt."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2058
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2122
+msgid "Infinite scroll"
+msgstr "Oändlig rullningslist"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2086
+msgid "Show articles in a grid or a list."
+msgstr "Visa artiklar i ett rutnät eller en lista."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2108
+msgid ""
+"You can choose between classic pagination or infinite scroll, where "
+"articles are loaded automatically."
+msgstr ""
+"Du kan välja mellan klassisk paginering eller oändlig rullningslist där "
+"artiklar laddas automatiskt."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2135
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2845
+msgid "Checkout"
+msgstr "Kassa"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2403
+msgid ""
+"Here you can normally make theme-specific settings related to your checkout "
+"section. Your shop, however, currently lacks the required features."
+msgstr ""
+"Här kan du i vanliga fall göra temaspecifika inställningar för kassan,"
+" men just nu saknar din butik den funktionalitet som krävs."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2136
+msgid "Here you can make theme-specific settings related to your checkout section."
+msgstr "Här kan du göra temaspecifika inställningar för kassan"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2151
+msgid "Discount codes"
+msgstr "Rabattkoder"
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2152
+msgid ""
+"Here you can enable discount codes for the current theme. To create and "
+"manage your discount codes, <a href='list_discounts.php'>click here</a>."
+msgstr ""
+"Här kan du aktivera rabattkoder för det aktuella temat. <a "
+"href=\"%s\">Klicka här</a> för att skapa och hantera dina rabattkoder."
+
+#: /media/sda1/home/david/Projekt/components/aficionado/diversity.json:2218
+msgid "Style links"
+msgstr "Stilregel länkar"

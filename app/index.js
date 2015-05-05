@@ -39,6 +39,7 @@ module.exports = generators.Base.extend({
 
     this.files.forEach(function(entry) {
       var destination = entry;
+      destination     = destination.replace('<%>', '.');
       destination     = destination.replace('style.scss', this.file);
       this.fs.copyTpl(
         this.templatePath('files/' + entry),

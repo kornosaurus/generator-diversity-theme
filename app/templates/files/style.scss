@@ -82,3 +82,12 @@ $basic-color-lighter-contrast: color-contrast($basic-color-lighter,#171717,#EDED
 $accent-color-complement: color-contrast($accent-color,darken($accent-color,15%),lighten($accent-color,15%)) !default;
 
 /***************** COLORS *******************/
+
+
+/***************** BASE *********************/
+[slot]:empty {
+  display:none;
+}
+a {
+  cursor:pointer;
+}

@@ -3,5 +3,13 @@
   "page.mustache.html",
   "diversity.json",
   "package.json",
-  "style.scss"
+  "style.scss",
+  "Article.html",
+  "ArticleGroup.html",
+  "ArticleSearchResults.html",
+  "Cart.html",
+  "Checkout.html",
+  "CheckoutReturnPage.html",
+  "CustomPage.html",
+  "gulpfile.js"
 ]

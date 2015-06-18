@@ -18,6 +18,8 @@ module.exports = generators.Base.extend({
     }
 
     this.appname  = changeCase.paramCase(this.appname);
+    this.angularVersion = '1.4.1';
+    this.jQueryVersion = '2.1.3';
   },
 
   writing: function() {

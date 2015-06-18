@@ -110,7 +110,7 @@
           },
 
 
-          "articlegroups": {
+          "article-groups": {
             "type":"object",
             "format": "diversity",
             "default": {
@@ -192,7 +192,7 @@
               }
             }
           },
-          "cart-cart": {
+          "cart": {
             "type":"object",
             "format": "diversity",
             "default": {
@@ -311,7 +311,7 @@
               "settings": {}
             }
           },
-          "article-buybutton": {
+          "article-buy-button": {
             "type": "object",
             "format": "diversity",
             "default": {

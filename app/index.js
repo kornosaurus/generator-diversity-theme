@@ -6,7 +6,7 @@ var chalk      = require('chalk');
 module.exports = generators.Base.extend({
   constructor: function() {
     generators.Base.apply(this, arguments);
-    this.argument('themename', { type: String, required: false});
+    this.argument('themename', {type: String, required: false});
   },
 
   initializing: function() {
@@ -18,8 +18,6 @@ module.exports = generators.Base.extend({
     }
 
     this.appname  = changeCase.paramCase(this.appname);
-    this.angularVersion = '1.4.1';
-    this.jQueryVersion = '2.1.3';
   },
 
   writing: function() {
@@ -45,10 +43,13 @@ module.exports = generators.Base.extend({
       destination     = destination.replace('style.scss', this.file);
       this.fs.copyTpl(
         this.templatePath('files/' + entry),
-        this.destinationPath(this.projectdir + destination), {
+        this.destinationPath(this.projectdir + destination),
+        {
           themename: this.name,
           themenameTitle: this.nameTitle,
-          stylefile: this.file
+          stylefile: this.file,
+          angularVersion: '1.4.1',
+          jQueryVersion: '2.1.3'
         }
       );
     }.bind(this));
@@ -57,8 +58,11 @@ module.exports = generators.Base.extend({
 
   install: function() {
     if (this.newdir) {
-      try { process.chdir(this.projectdir); }
-      catch (error) { return this.log('Ooops, there has been an error:', error); }
+      try {
+        process.chdir(this.projectdir);
+      } catch (error) {
+        return this.log('Ooops, there has been an error:', error);
+      }
     }
 
     this.log('\nI\'m just running ' + chalk.bold.yellow('npm install') +

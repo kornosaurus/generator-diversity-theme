@@ -64,10 +64,10 @@
         location.href.indexOf('://localhost') === -1) {
       // Prevent Internet Explorer 9 from exploding and killing everyone
       if (!window.console) {
-        window.console = {};
+        window.console = {log: function() {}};
       }
 
-      window.realConsole = console; // Save a copy of console, just in case...
+      window.realConsole = console; // Save a copy of console.log (the fake one for IE9)
 
       // Mute everything
       console = {

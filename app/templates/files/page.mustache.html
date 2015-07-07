@@ -60,15 +60,23 @@
       "debug=true" in the url.
     }}
     <script>
-    // Disable console in production
     if (location.href.toLocaleLowerCase().indexOf('debug=true') === -1 &&
         location.href.indexOf('://localhost') === -1) {
-      // Windows only defines console if developer tools is open.
-      if (window.console) {
-        console.log = function() { };
-      } else {
-        window.console = {log: function(){}};
+      // Prevent Internet Explorer 9 from exploding and killing everyone
+      if (!window.console) {
+        window.console = {};
       }
+
+      window.realConsole = console; // Save a copy of console, just in case...
+
+      // Mute everything
+      console = {
+        log: function() {},
+        warn: function() {},
+        error: function() {},
+        info: function() {},
+        table: function() {}
+      };
     }
     </script>
 

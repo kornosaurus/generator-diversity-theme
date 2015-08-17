@@ -77,6 +77,22 @@
         info: function() {},
         table: function() {}
       };
+    } else {
+      // Debug mode - run tota11y and Bootlint
+      (function() {
+        var bootlintScriptTag = document.createElement('script');
+        var tota11yScriptTag = document.createElement('script');
+        tota11yScriptTag.src = '//khan.github.io/tota11y/tota11y/build/tota11y.min.js';
+        bootlintScriptTag.src = '//maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js';
+        document.getElementsByTagName('head')[0].appendChild(tota11yScriptTag);
+        document.getElementsByTagName('head')[0].appendChild(bootlintScriptTag);
+        document.addEventListener('DOMContentLoaded', function() {
+          bootlint.showLintReportForCurrentDocument(['W013'], {
+            hasProblems: true,
+            problemFree: false
+          });
+        })
+      })();
     }
     </script>
 

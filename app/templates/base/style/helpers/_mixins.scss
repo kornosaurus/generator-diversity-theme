@@ -1,0 +1,15 @@
+@mixin font-accent($size: 'base') {
+  font-family: font-family('accent');
+  font-size: font-size($size);
+}
+
+@mixin font-base($size: 'base') {
+  font-family: font-family('base');
+  font-size: font-size($size);
+}
+
+@mixin font-heading($heading: 'h1') {
+  font-family: font-family('accent');
+  font-weight: 600;
+  font-size($heading);
+}

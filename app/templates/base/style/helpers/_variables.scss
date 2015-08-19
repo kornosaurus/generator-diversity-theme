@@ -1,0 +1,55 @@
+// Bootstrap breakpoints:
+$breakpoint-xxs-max-width: 479px;
+$breakpoint-xs-max-width: 767px;
+$breakpoint-sm-max-width: 991px;
+$breakpoint-md-max-width: 1999px;
+
+// Color palettes with different shades of the three base colors
+$palettes: (
+  'text': (
+    'xxx-light': lighten($basic-color, 60%),
+    'xx-light': lighten($basic-color, 40%),
+    'x-light': lighten($basic-color, 20%),
+    'light': lighten($basic-color, 10%),
+    'base': $basic-color
+  ),
+  'alt-text': (
+    'base': lighten(invert($basic-color), 10%),
+    'mid-dark': darken(lighten(invert($basic-color), 10%), 5%),
+    'x-dark': darken(lighten(invert($basic-color), 10%), 20%)
+  ),
+  'accent': (
+    'light': lighten($accent-color, 20%),
+    'mid-light': lighten($accent-color, 10%),
+    'base': $accent-color,
+    'mid-dark': darken($accent-color, 10%),
+    'dark': darken($accent-color, 20%)
+  ),
+  'background': (
+    'base': $document-color,
+    'mid-dark': darken($document-color, 5%),
+    'dark': darken($document-color, 10%)
+  ),
+  'alt-background': (
+    'base': lighten(invert($document-color), 20%),
+    'dark': invert($document-color)
+  )
+);
+
+$font-families: (
+  'base': '"#{$regular-font}", sans-serif',
+  'accent': '"#{$accent-font}", sans-serif'
+);
+
+$font-sizes: (
+  'h1': 36px,
+  'h2': 26px,
+  // General
+  'large': 16px,
+  'base': 14px
+);
+
+$line-heights: (
+  'large': 1.666666,
+  'base': 1.428571429
+);

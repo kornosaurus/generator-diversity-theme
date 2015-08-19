@@ -4,11 +4,11 @@
   "description": "<%= themenameTitle %> Diversity Theme",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "karma start test/karma.conf.js"
+    "test": "gulp lint-style-names"
   },
   "author": "",
   "license": "",
-  "devDependencies": {
+  "dependencies": {
     "diversity-build": "git+https://git.diversity.io/tooling/diversity-build.git#master",
     "gulp": "^3.8.11"
   }

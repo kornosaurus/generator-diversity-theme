@@ -1,0 +1,32 @@
+body {
+  background: palette('background');
+}
+
+body,
+textarea {
+  @include font-base();
+}
+
+// Empty slots should be hidden completely
+[slot]:empty {
+  display: none;
+}
+
+// Some examples on how to use mixins to manage styles
+//
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   @include font-accent();
+// }
+//
+// h1 {
+//   @include font-heading('h1');
+// }
+//
+// h2 {
+//   @include font-heading('h2');
+// }

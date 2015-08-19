@@ -3,9 +3,11 @@
 <!--[if IE 9 ]>    <html class="ie9" lang="{{#lang}}lang{{/lang}}"> <![endif]--> {{! IE version check. Super important, used by the JSON RPC client to determine if XDomainRequests are needed. }}
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="{{#lang}}lang{{/lang}}"><!--<![endif]-->
   <head tws-theme-foundation-title-meta-desc-keywords>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <meta http-equiv="x-rim-auto-match" content="none">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{! Angular needs a base tag for html5 routing to work }}
     <base href="/">

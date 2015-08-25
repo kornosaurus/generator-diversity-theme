@@ -132,6 +132,16 @@
     {{/settings.head}}
 
   </head>
+  
+  <!--[if lt IE 9]>
+  <body style="overflow: hidden;">
+    <div style="height: 10%; font-size: 32px; line-height: 2; text-align: center;">
+      <p>You need a modern browser to browse this shop.</p>
+    </div>
+    <iframe height="90%" width="100%" src="http://browsehappy.com/"></iframe>
+  </body>
+  <![endif]-->
+  <!--[if (gte IE 9)|!(IE)]><!-->
   <body ng-cloak>
 
     {{! Helper directive that renders a "You are previewing" message if certain cookies are set }}
@@ -205,4 +215,5 @@
     </script>
 
   </body>
+  <!--<![endif]-->
 </html>

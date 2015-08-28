@@ -1,0 +1,17 @@
+.btn {
+  background: palette('background', 'dark');
+  color: palette('text', 'light');
+
+  &:hover {
+    background: palette('background', 'mid-dark');
+  }
+
+  &-primary {
+    background: palette('accent');
+    color: palette('alt-text');
+
+    &:hover {
+      background: palette('accent', 'mid-dark');
+    }
+  }
+}

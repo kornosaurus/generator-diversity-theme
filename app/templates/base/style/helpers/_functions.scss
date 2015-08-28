@@ -1,0 +1,28 @@
+
+// Returns a color tone from a color palette.
+// Example: palette('accent', 'light')
+@function palette($palette, $tone: 'base') {
+  @return map-get(map-get($palettes, $palette), $tone);
+}
+
+// Returns a font-family
+// Example: font-family('heading')
+@function font-family($name: 'default') {
+  @return #{map-get($font-families, $name)};
+}
+
+@function font-size($size: 'base') {
+  @return map-get($font-sizes, $size);
+}
+
+// Returns a proportional line height rounded to suit the chosen font size.
+// This is only useful if you set your font sizes in pixels.
+// I.e. if your 'base' font size is 14px and 'base' line height is 1.3, the
+// function rounds that up to 1.357..., a value close to 1.3 that would give a
+// line height of 19px instead of 18.2px.
+// 
+// Example: line-height-for-font-size('base')
+@function line-height-for-font-size($font-size: 'base', $height: 'base') {
+  // We calculate a proportion close to avoid sub pixels
+  @return ceil(map-get($line-heights, $height) * font-size($font-size)) / font-size($font-size);
+}

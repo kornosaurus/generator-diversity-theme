@@ -1,14 +1,13 @@
 <!DOCTYPE HTML>
-{{! Hey there! Checkout this mustache comments for info on what everything actually means.}}
-<!--[if lt IE 7 ]> <html class="ie6" lang="{{#lang}}lang{{/lang}}"> <![endif]--> {{! IE version check. Super important, used by the JSON RPC client to determine if XDomainRequests are needed. }}
-<!--[if IE 7 ]>    <html class="ie7" lang="{{#lang}}lang{{/lang}}"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8" lang="{{#lang}}lang{{/lang}}"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie9" lang="{{#lang}}lang{{/lang}}"> <![endif]-->
+{{! Hey there! Checkout these mustache comments for info on what everything actually means.}}
+<!--[if IE 9 ]>    <html class="ie9" lang="{{#lang}}lang{{/lang}}"> <![endif]--> {{! IE version check. Super important, used by the JSON RPC client to determine if XDomainRequests are needed. }}
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="{{#lang}}lang{{/lang}}"><!--<![endif]-->
   <head tws-theme-foundation-title-meta-desc-keywords>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <meta http-equiv="x-rim-auto-match" content="none">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{! Angular needs a base tag for html5 routing to work }}
     <base href="/">
@@ -34,7 +33,7 @@
       This loads the SASS file.
       A couple of things to note:
 
-      * The version is important! * means always use latest version.
+      * The version is important! '*' means always use latest version.
       * Diversity API dynamically compiles the SASS file to CSS, and any query parameters are exposed
         as variables in this SASS. This means that you can set any kind of SASS variable as a setting
         in the theme as long as you have it defined in both the settings, here in the url, and in the
@@ -63,22 +62,46 @@
       "debug=true" in the url.
     }}
     <script>
-    // Disable console in production
     if (location.href.toLocaleLowerCase().indexOf('debug=true') === -1 &&
         location.href.indexOf('://localhost') === -1) {
-      // Windows only defines console if developer tools is open.
-      if (window.console) {
-        console.log = function() { };
-      } else {
-        window.console = {log: function(){}};
+      // Prevent Internet Explorer 9 from exploding and killing everyone
+      if (!window.console) {
+        window.console = {log: function() {}};
       }
+
+      window.realConsole = console; // Save a copy of console.log (the fake one for IE9)
+
+      // Mute everything
+      console = {
+        log: function() {},
+        warn: function() {},
+        error: function() {},
+        info: function() {},
+        table: function() {}
+      };
+    } else {
+      // Debug mode - run tota11y and Bootlint
+      (function() {
+        var bootlintScriptTag = document.createElement('script');
+        var tota11yScriptTag = document.createElement('script');
+        tota11yScriptTag.src = '//khan.github.io/tota11y/tota11y/build/tota11y.min.js';
+        bootlintScriptTag.src = '//maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js';
+        document.getElementsByTagName('head')[0].appendChild(tota11yScriptTag);
+        document.getElementsByTagName('head')[0].appendChild(bootlintScriptTag);
+        document.addEventListener('DOMContentLoaded', function() {
+          bootlint.showLintReportForCurrentDocument(['W013'], {
+            hasProblems: true,
+            problemFree: false
+          });
+        })
+      })();
     }
     </script>
 
-    {{! Diversity supports IE9 and up, this gives a warning if the browser is older. }}
+    {{! This gives a friendly warning if the browser is old and outdated. See http://browser-update.org }}
     <script>
       if (navigator && navigator.userAgent && navigator.userAgent.indexOf('PhantomJS') === -1) {
-        var $buoop = {vs:{i:8,f:15,o:12.1,s:5.1},c:2};
+        var $buoop = {c:2};
         function $buo_f(){
          var e = document.createElement("script");
          e.src = "//browser-update.org/update.js";
@@ -103,19 +126,31 @@
       {{/l10n}}
     </script>
 
-    {{! Extra component in HEAD. Currently used for google analytics. }}
+    {{! Extra component in HEAD. Useful for analytics. }}
     {{#settings.head}}
      {{{ componentHTML }}}
     {{/settings.head}}
 
   </head>
+  
+  <!--[if lt IE 9]>
+  <body style="overflow: hidden;">
+    <div style="height: 10%; font-size: 32px; line-height: 2; text-align: center;">
+      <p>You need a modern browser to browse this shop.</p>
+    </div>
+    <iframe height="90%" width="100%" src="http://browsehappy.com/"></iframe>
+  </body>
+  <![endif]-->
+  <!--[if (gte IE 9)|!(IE)]><!-->
   <body ng-cloak>
 
     {{! Helper directive that renders a "You are previewing" message if certain cookies are set }}
     <div tws-theme-foundation-preview></div>
 
-    {{! Example "slot", i.e. a place where a component can be put into }}
-    <div slot="example-slot"></div>
+    <header class="<%= themename %>--header">
+      {{! Example "slot", i.e. a place where a component can be put into }}
+      <div slot="example-slot" class="slot--example-slot"></div>
+    </header>
 
     {{!
       tws-theme-foundation uses tws-routing which in turn uses ui-router to route between pages.
@@ -124,15 +159,17 @@
 
       ui-view below is the point of inclusion for that page types template.
     }}
-    <div ui-view="content" class="tws-theme-content"></div>
+    <div ui-view="content" class="<%= themename %>--content"></div>
+
+    <footer class="<%= themename %>--footer"></footer>
 
 
     {{! Default library dependencies }}
-    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular-sanitize.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular-touch.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular-animate.min.js"></script>
+    <script src="//code.jquery.com/jquery-<%= jQueryVersion %>.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/<%= angularVersion %>/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/<%= angularVersion %>/angular-sanitize.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/<%= angularVersion %>/angular-touch.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/<%= angularVersion %>/angular-animate.min.js"></script>
 
     {{! BUILTIN VARIABLE: Scripts of your components }}
     {{#scripts}}
@@ -178,4 +215,5 @@
     </script>
 
   </body>
+  <!--<![endif]-->
 </html>

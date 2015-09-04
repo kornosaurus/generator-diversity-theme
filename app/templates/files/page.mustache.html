@@ -80,20 +80,23 @@
         table: function() {}
       };
     } else {
-      // Debug mode - run tota11y and Bootlint
+      // Run tota11y in development
       (function() {
-        var bootlintScriptTag = document.createElement('script');
         var tota11yScriptTag = document.createElement('script');
         tota11yScriptTag.src = '//khan.github.io/tota11y/tota11y/build/tota11y.min.js';
-        bootlintScriptTag.src = '//maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js';
         document.getElementsByTagName('head')[0].appendChild(tota11yScriptTag);
+      })();
+
+      // Run Bootlint in development
+      (function() {
+        var bootlintScriptTag = document.createElement('script');
+        var bootlintLinkTag = document.createElement('link');
+        bootlintScriptTag.src = '//textalk.github.io/bootlint-gui/bootlint-gui/bootlint-gui.js';
+        bootlintLinkTag.href = '//textalk.github.io/bootlint-gui/bootlint-gui/bootlint-gui.css';
+        bootlintLinkTag.type = 'text/css';
+        bootlintLinkTag.rel = 'stylesheet';
         document.getElementsByTagName('head')[0].appendChild(bootlintScriptTag);
-        document.addEventListener('DOMContentLoaded', function() {
-          bootlint.showLintReportForCurrentDocument(['W013'], {
-            hasProblems: true,
-            problemFree: false
-          });
-        })
+        document.getElementsByTagName('head')[0].appendChild(bootlintLinkTag);
       })();
     }
     </script>
@@ -132,7 +135,7 @@
     {{/settings.head}}
 
   </head>
-  
+
   <!--[if lt IE 9]>
   <body style="overflow: hidden;">
     <div style="height: 10%; font-size: 32px; line-height: 2; text-align: center;">
